@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+  font-family: "Bai Jamjuree", sans-serif;
+  max-width: 1440px;
+}
+:root{
+  --Strong-Cyan: hsl(171, 66%, 44%);
+  --Light-Blue: hsl(233, 100%, 69%);
+  --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+  --Grayish-Blue: hsl(201, 11%, 66%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.header-bg-img{
+  position: absolute;
+  width: 100vw;
+  overflow: hidden;
+  max-width: 1440px;
+}
+.header{
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 4rem;
+}
+.logo{
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+h2{
+  margin-bottom: 1rem;
+}
+p{
+  color: var(--Grayish-Blue);
+  margin-bottom: 1rem;
+}
+button{
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+  border-radius: 1rem;
+  color: white;
+  border: none;
+  /* font-size: 0.5rem; */
+}
+.iosbtn{
+  background:hsl(171, 66%, 44%);
+}
+.macbtn{
+  background: var(--Light-Blue);
+}
+.keep{
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+h3, h2{
+  margin-bottom: 1rem;
+  color: var(--Dark-Grayish-Blue);
+}
+
+.second-container{
+  display: flex;
+  margin-top: 5rem;
+  /* width: 80%; */
+  /* gap: 5rem; */
+}
+.computer-pic{
+  height: 80%;
+}
+.pic-side-box{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-evenly;
+  margin-left: 2rem;
+  padding: 2rem;
+}
+.side-box{
+  margin-right: 2rem;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+h5{
+  margin-bottom: 1rem;
+  color: var(--Dark-Grayish-Blue);
+}
+.side-para{
+  margin-bottom: 2rem;
+}
+.third-container{
+  margin-top: 6rem;
+}
+.clipboard{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+.fourth-container{
+  text-align: center;
+}
+.workflow{
+  width: 80%;
+  /* border: 1px red solid; */
+  margin: 0 auto;
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+}
+.icons{
+  margin-bottom: 1rem;
+}
+.fifth-container{
+  display: flex;
+  justify-content: space-around;
+  margin: 5rem;
+}
+.sixth-container{
+  text-align: center;
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.109);
+  margin-top: 5rem;
+}
+.social{
+  display: flex;
+  gap: 1rem;
+}
+.faq{
+  display: flex;
+  gap: 2rem;
+}
+.logo-small{
+  width: 50px;
+}
+.access-img{
+  margin: 0 auto;
+  width: 90%;
+}
+.sixth-box{
+  width: 60%;
+  margin: 0 auto;
+}
