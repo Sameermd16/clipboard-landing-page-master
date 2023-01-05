@@ -156,3 +156,39 @@ h5{
   width: 60%;
   margin: 0 auto;
 }
+@media only screen and (max-width: 800px){
+  .second-container{
+    flex-direction: column;
+  }
+  .computer-pic{
+    width: 100%;
+  }
+  .fifth-container{
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    justify-content: center;
+  }
+  .fifth-container img{
+    width: 30%;
+    text-align: center;
+  }
+  .header{
+    width: 100%;
+  }
+  .pic-side-box{
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .workflow{
+    flex-direction: column;
+  }
+  .footer{
+    flex-direction: column;
+    margin-top: 10rem;
+  }
+  .faq{
+    display: flex;
+    flex-direction: column;
+  }
+}
