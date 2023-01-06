@@ -156,6 +156,24 @@ h5{
   width: 60%;
   margin: 0 auto;
 }
+/*active states*/
+button{
+  cursor: pointer;
+}
+.footer .faq a{
+  cursor: pointer;
+  color: var(--Dark-Grayish-Blue);
+}
+.footer .faq a:hover{
+  color: var(--Strong-Cyan);
+}
+.footer div:nth-child(3) a ion-icon{
+  color: var(--Dark-Grayish-Blue);
+}
+.footer div:nth-child(3) a ion-icon:hover{
+  color: var(--Strong-Cyan);
+}
+
 @media only screen and (max-width: 800px){
   .second-container{
     flex-direction: column;
@@ -187,19 +205,21 @@ h5{
   .footer{
     flex-direction: column;
     margin-top: 10rem;
-    /* background: none; */
     height: 50%;
-    /* background-color: rgba(255, 255, 255, 0.206); */
   }
   .faq{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 2rem;
+    gap: 1rem;
   }
   .logo-small{
     margin-bottom: 1rem;
     /* padding: 1rem; */
     margin-top: 2rem;
+  }
+  .social{
+    margin-top: 1rem;
   }
 }
