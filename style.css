@@ -159,7 +159,9 @@ h5{
 /*active states*/
 button{
   cursor: pointer;
-}
+  margin: 1rem auto;
+} 
+
 .footer .faq a{
   cursor: pointer;
   color: var(--Dark-Grayish-Blue);
@@ -221,5 +223,10 @@ button{
   }
   .social{
     margin-top: 1rem;
+  }
+  button{
+    display: block;
+    margin: 1rem auto;
+    width: 70%;
   }
 }
